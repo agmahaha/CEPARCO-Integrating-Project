@@ -1,1 +1,3 @@
-# CEPARCO-Integrating-Project
+# [Integrating-Project] Implementation of Smith-Waterman Algorithm in SIMT using CUDA
+
+Abstract: This proposal aims to improve the computational efficiency of the Smith-Waterman algorithm for local protein sequence alignment by taking advantage of CUDA's parallel computing capabilities. The algorithm will be implemented in both sequential C and parallelized CUDA versions, focusing on optimizing the scoring phase utilizing the BLOSUM62 substitution matrix and affine gap penalties. The performance of both versions will be assessed by comparing execution times and validating the CUDA implementation. The goal is to show that GPU acceleration may significantly reduce execution time, demonstrating its potential for upgrading computationally complex bioinformatics algorithms.
