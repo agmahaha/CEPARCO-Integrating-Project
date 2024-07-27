@@ -17,8 +17,8 @@ Both implementations are run *n* times, and the average runtime is calculated. B
 
 | Array Size | C | CUDA | Speedup |
 | ------------- |-------------|------------- |------------- |
-| Sequential | 2.299107 ms | 140.978020 ms | 2257.447447 ms |
-| CUDA | 8.670397 ms | 541.459027 ms | 8749.174177 ms |
+| 2^4 | 2.299107 ms | 140.978020 ms | 2257.447447 ms |
+| 2^8 | 8.670397 ms | 541.459027 ms | 8749.174177 ms |
 
 ## Analysis
 
