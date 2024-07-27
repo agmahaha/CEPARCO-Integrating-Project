@@ -9,8 +9,8 @@ This project aims to improve the computational efficiency of the Smith-Waterman 
 
 ## Discussion of Parallel Algorithm Implemented
 The following were parallelized using CUDA
-a.) Scoring Matrix
-b.) Traceback
+- Scoring Matrix
+- Traceback
 
 ## Performance Comparison
 Both implementations are run *n* times, and the average runtime is calculated. Below are the tables showing the average runtime of both implementations.
